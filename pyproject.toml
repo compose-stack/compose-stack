@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "compose-stack"
+version = "0.1.0"
+description = ""
+authors = ["Vittorio Zamboni <vittorio.zamboni@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.25.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+pyyaml = "^6.0.1"
+requests = "^2.31.0"
+
+[tool.poetry.scripts]
+compose-stack = 'compose_stack_cli:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

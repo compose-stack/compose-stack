@@ -1,0 +1,7 @@
+components:
+  backend:
+    - name: fastapi-postgres-asyncio
+      repository: compose-stack/fastapi-postgres-asyncio
+  frontend:
+    - name: nextjs-zustand-monorepo
+      repository: compose-stack/nextjs-zustand-monorepo
